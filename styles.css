@@ -25,29 +25,43 @@ li{
     display: flex;
     flex-direction: column;
     border: 4px solid green;
+    background-color: #039BE5;
 
 }
 
+
 .logo{
+    padding-top: 15px;
     padding-right: 30px;
     padding-left: 15px;
     display: flex;
     align-items: center;
-    border:4px solid orange;
 }
 
+.logo > h1{
+    color:white;
+}
+
+.navigation > li > h2{
+    color:white;
+}
+
+.settings > li > h2{
+    color:white;
+}
 
 .icon{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-right: 20px;
-    color:skyblue;
+    color:white;
 }
 
 .dash{
     width:80px;
     height: 80px;
-    color:skyblue;
+    margin-right: 10px;
+    color:white;
 }
 
 
