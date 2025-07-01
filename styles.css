@@ -203,6 +203,8 @@ li{
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
 
+    padding-bottom: 50px;
+
 }
 
 .projects{
@@ -211,7 +213,7 @@ li{
     grid-column: 1 / 2;
 
     display: grid;
-    grid-template: 0.5fr 5fr / 1fr;
+    grid-template: 0.33fr 5fr / 1fr;
 
 }
 
@@ -256,7 +258,7 @@ li{
     grid-column: 2 / 3;
 
     display: grid;
-    grid-template: 1fr 5fr / 1fr;
+    grid-template: 0.7fr 5fr / 1fr;
 
 }
 
@@ -275,13 +277,22 @@ li{
 
 }
 
+.announcement{
+
+    height: 350px;
+    width: 300px;
+
+    background-color: lightcoral;
+    margin: 20px;
+}
+
 .trending{
 
     grid-row: 2 / 3;
     grid-column: 2 / 3;
 
     display: grid;
-    grid-template: 1fr 5fr / 1fr;
+    grid-template: 0.7fr 5fr / 1fr;
 
 }
 
@@ -300,7 +311,15 @@ li{
 
 }
 
+.trend{
+
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+
+    background-color: lightcoral;
+}
+
 #magnify{
     justify-self: center;
 }
-
