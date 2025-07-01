@@ -211,7 +211,7 @@ li{
     grid-column: 1 / 2;
 
     display: grid;
-    grid-template: 1fr 10fr / 1fr;
+    grid-template: 0.5fr 5fr / 1fr;
 
 }
 
@@ -232,12 +232,42 @@ li{
     grid-row: 1 / 2;
     grid-column: 2 / 3;
 
+    display: grid;
+    grid-template: 1fr 5fr / 1fr;
+
+}
+
+.announcements--header{
+
+    grid-row: 1 / 2
+
+}
+
+.announcements--cards{
+
+    grid-row: 2 / 3
+
 }
 
 .trending{
 
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+
+    display: grid;
+    grid-template: 1fr 5fr / 1fr;
+
+}
+
+.trending--header{
+
+    grid-row: 1 / 2
+
+}
+
+.trending--cards{
+
+    grid-row: 2 / 3
 
 }
 
