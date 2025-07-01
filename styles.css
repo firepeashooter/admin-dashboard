@@ -217,14 +217,28 @@ li{
 
 .projects--header{
 
-    grid-row: 1 / 2
+    grid-row: 1 / 2;
 
 }
 
 .projects--cards{
 
-    grid-row: 2 / 3
+    margin: 20px;
 
+    grid-row: 2 / 3;
+
+    display: grid;
+    gap:10px;
+
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: 250px;
+
+}
+
+.pcard{
+    height: 250px;
+    width: min(350px, 1fr);
+    background-color: lightblue;
 }
 
 .announcements{
@@ -239,13 +253,13 @@ li{
 
 .announcements--header{
 
-    grid-row: 1 / 2
+    grid-row: 1 / 2;
 
 }
 
 .announcements--cards{
 
-    grid-row: 2 / 3
+    grid-row: 2 / 3;
 
 }
 
@@ -261,13 +275,13 @@ li{
 
 .trending--header{
 
-    grid-row: 1 / 2
+    grid-row: 1 / 2;
 
 }
 
 .trending--cards{
 
-    grid-row: 2 / 3
+    grid-row: 2 / 3;
 
 }
 
