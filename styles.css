@@ -219,6 +219,15 @@ li{
 
     grid-row: 1 / 2;
 
+    display:grid;
+    align-items: end;
+
+}
+
+.subheading{
+    margin:0;
+    padding:0;
+    margin-left: 20px;
 }
 
 .projects--cards{
@@ -255,6 +264,9 @@ li{
 
     grid-row: 1 / 2;
 
+    display:grid;
+    align-items: end;
+
 }
 
 .announcements--cards{
@@ -276,6 +288,9 @@ li{
 .trending--header{
 
     grid-row: 1 / 2;
+
+    display:grid;
+    align-items: end;
 
 }
 
