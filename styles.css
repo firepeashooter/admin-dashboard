@@ -250,6 +250,7 @@ li{
     height: 250px;
     width: min(350px, 1fr);
     background-color: lightblue;
+    border-radius: 15px;
 }
 
 .announcements{
@@ -275,6 +276,7 @@ li{
 
     grid-row: 2 / 3;
 
+
 }
 
 .announcement{
@@ -283,6 +285,8 @@ li{
     width: 300px;
 
     background-color: lightcoral;
+
+    border-radius: 15px;
     margin: 20px;
 }
 
