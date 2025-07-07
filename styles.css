@@ -7,6 +7,9 @@ li{
 .line{
     height: 2px;
     width: 80%;
+
+    z-index: 1;
+
     background-color: darkgray;
     justify-self: center;
 }
@@ -300,6 +303,7 @@ li{
     display:grid;
     grid-template-rows: 1fr 1fr 1fr ;
     align-items: center;
+
 }
 
 .ann > *{
@@ -310,7 +314,7 @@ li{
 .ann{
     height:60px;
     width: 80%;
-    margin:20px;
+    margin:30px;
     overflow:hidden;
     text-overflow: ellipsis;
 
